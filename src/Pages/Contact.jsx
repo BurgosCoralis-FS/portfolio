@@ -1,10 +1,10 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: Contact.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  FileName: Contact.jsx
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
@@ -38,11 +38,11 @@ const Contact = () => {
       </div>
       <div className="w-full flex flex-col">
         <SocialLinks />
-        <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
+        {/* <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
           <span>
             Made by <em>Sara Echeverría (bl33h)</em>
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

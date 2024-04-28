@@ -1,14 +1,15 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: index.js
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  Edited by: Cora (kiricora)
+  FileName: index.js
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 // Logo
-import bl33hIcon from './logo/bl33hIcon.png';
+import favIcon from './logo/favicon.ico';
 
 // Technologies
 import htmlIcon from './tech/html.png';
@@ -27,16 +28,29 @@ import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
 import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
+import jekyllIcon from './tech/jekyll.png';
+import dockerIcon from './tech/docker.webp';
+import dockerContainerIcon from './tech/dockerContainer.png';
+import neovimIcon from './tech/neovim.png';
+import expoGoIcon from './tech/expoGo.png';
+import swaggerIcon from './tech/swagger.png';
+import sequelizeLogo from './tech/sequelize.png';
+import jestLogo from './tech/jest.png';
+import mongoDbLogo from './tech/mongoDb.png';
+import tailwindLogo from './tech/tailwind.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import pawsitivePrototype from './projects/pawsitive.jpeg';
-import calculator from './projects/calculator.jpg';
-import memoryGame from './projects/memory.jpg';
+import spaceTrackerUI from './projects/spaceTrackerUI.png'
 
 // Avatar
-import avatar from './avatar/avatar.png';
+import avatar from './avatar/avatar.jpeg';
+
+// Flags
+import puertoRico from './flags/puertoRico.png';
+import unitedStates from './flags/unitedStates.webp';
+import southKorea from './flags/southKorea.webp';
 
 export {
   menu,
@@ -57,9 +71,20 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  jekyllIcon,
+  dockerIcon,
+  dockerContainerIcon,
+  neovimIcon,
+  expoGoIcon,
+  swaggerIcon,
+  sequelizeLogo,
+  jestLogo,
+  mongoDbLogo,
+  tailwindLogo,
+  spaceTrackerUI,
   avatar,
-  bl33hIcon,
+  favIcon,
+  puertoRico,
+  unitedStates,
+  southKorea,
 };

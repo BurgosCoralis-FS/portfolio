@@ -1,10 +1,11 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: ContactForm.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  Edited by: Cora (kiricora)
+  FileName: ContactForm.jsx
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/23
 */
 
 import { useRef, useState } from "react";
@@ -19,10 +20,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "whoisbl33h",
-      "template1",
+      "kiricora",
+      "contact_form",
       e.target,
-      "JjC_Nnt4rUsjIsRtz"
+      "p0Wo7Ifyrr7c3HglB"
     )
       .then(
         (result) => {
@@ -67,24 +68,13 @@ const ContactForm = () => {
           className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
         >
           <div className="w-full flex flex-col">
-            <label htmlFor="firstname">First Name</label>
+            <label htmlFor="fullName">Full Name</label>
             <input
               className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your First Name"
-              id="firstname"
+              placeholder="Enter your Full Name"
+              id="fullName"
               type="text"
               name="from_name"
-              required
-            />
-          </div>
-          <div className="w-full flex flex-col">
-            <label htmlFor="lastname">Last Name</label>
-            <input
-              className="p-[0.5em] rounded-xl text-grayscale-950"
-              placeholder="Enter your Last Name"
-              id="lastname"
-              type="text"
-              name="from_last"
               required
             />
           </div>

@@ -1,9 +1,11 @@
-/* Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-     @author Sara Echeverria
-     FileName: styles.js
-     @version: I
-     Creation: 02/06/2023
-     Last modification: 03/06/2023 */
+/* 
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  @author Sara Echeverria
+  FileName: styles.js
+  @version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
+*/
 
 const styles = {
   paddingX: 'sm:px-16 px-6',

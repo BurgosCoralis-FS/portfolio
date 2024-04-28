@@ -1,10 +1,10 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: ProjectCards.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  FileName: ProjectCards.jsx
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 import { motion } from "framer-motion";
@@ -151,7 +151,7 @@ const SectionWrapper = (Component, idName) =>
                 (source_code_link, "_blank")}
                 className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
               >
-               <img 
+                <img 
                 src={githubIcon}
                 alt="github"
                 className="w-15 h-15 object-contain"
@@ -171,13 +171,13 @@ const SectionWrapper = (Component, idName) =>
           <div 
             className="mt-3 flex justify-center items-center"
           >
-            <a 
+            {/* <a 
               className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center"
               href={demo_link}
               target='_blank'
             >
               See the Demo
-            </a>
+            </a> */}
           </div>
         </Tilt>
       </motion.div>

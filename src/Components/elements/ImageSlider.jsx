@@ -1,10 +1,10 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: ImageSlider.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 02/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  FileName: ImageSlider.jsx
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 import { useEffect, useState, useRef } from "react";

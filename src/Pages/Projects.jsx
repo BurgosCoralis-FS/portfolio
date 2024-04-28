@@ -1,10 +1,10 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: Projects.jsx
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  FileName: Projects.jsx
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 import SectionTitle from "../Components/SectionTitle";

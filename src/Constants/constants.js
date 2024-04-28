@@ -1,13 +1,15 @@
 /*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: constants.js
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 18/12/2023
+  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+  Author: Sara Echeverria
+  Edited by: Cora (kiricora)
+  FileName: constants.js
+  Version: I
+  Creation: 02/06/2023
+  Last modification: 04/27/2024
 */
 
 import { library } from '@fortawesome/fontawesome-svg-core';
+
 import {
   faX,
   faBars,
@@ -16,6 +18,7 @@ import {
   faDiceD6,
   faEnvelope,
 } from '@fortawesome/free-solid-svg-icons';
+
 import {
   faReact,
   faGithub,
@@ -39,10 +42,21 @@ import {
   raspIcon,
   neoIcon,
   figmaIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
+  jekyllIcon,
+  dockerIcon,
+  dockerContainerIcon,
+  neovimIcon,
+  expoGoIcon,
+  swaggerIcon,
+  sequelizeLogo,
+  jestLogo,
+  mongoDbLogo,
+  tailwindLogo,
+  spaceTrackerUI,
   avatar,
+  puertoRico,
+  unitedStates,
+  southKorea,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -65,6 +79,16 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  jekyllIcon,
+  dockerIcon,
+  dockerContainerIcon,
+  neovimIcon,
+  expoGoIcon,
+  swaggerIcon,
+  sequelizeLogo,
+  jestLogo,
+  mongoDbLogo,
+  tailwindLogo,
 };
 
 const icons = {
@@ -81,19 +105,47 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hello there, I'm so happy you are here! (:",
+    "Hey, I'm so happy you're here! (:",
 
-		"My name is Sara, I'm 21 and a junior computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
-    "Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
+    "My name is Cora, and I am a 25-year-old online student at Full Sail University pursuing a bachelor of science in web development.",
+    "Aside from regular activities, I enjoy gaming, cosplay, and horror movies.",
 
-    "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
+    "I am an introverted and timid person, yet I am always eager to learn, collaborate with others, and create new things together. Thank you for taking the time to look through my portfolio. Instagram user @m1sumisu created my avatar!",
   ],
 };
+
+const languages = [
+  {
+    id: 'spanish',
+    title: 'Spanish',
+    icon: puertoRico,
+    level: 'Native Proficiency',
+    details: 'I was born and raised in Puerto Rico, where the primary language is Spanish.'
+  },
+  {
+    id: 'english',
+    title: 'English',
+    icon: unitedStates,
+    level: 'Fluent',
+    details: 'Since kindergarten till my senior year of high school, I have been studying English. Aside from that, I used television, video games, and movies to improve and hone my English.'
+  },
+  {
+    id: 'korean',
+    title: 'Korean',
+    icon: southKorea,
+    level: 'Intermediate',
+    details: 'For a year, I have been taking Korean classes with an online tutor. Although my speaking may use some improvement, my writing and listening skills are at an intermediate level.'
+  }
+];
 
 export const navLinks = [
   {
     id: 'about',
     title: 'About',
+  },
+  {
+    id: 'languages',
+    title: 'Languages',
   },
   {
     id: 'projects',
@@ -111,26 +163,26 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    name: "Space Tracker UI",
+    description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with cutting-edge technologies like Docker for containerization, Twig for templating, and a robust database abstraction layer, this system empowers users to manage celestial objects with ease and precision.',
+    image: spaceTrackerUI,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
+    
   },
-  {
-    name: 'Pawsitive',
-    description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
-  },
-  {
-    name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-    image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
-  },
+  // {
+  //   name: 'Pawsitive',
+  //   description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
+  //   image: pawsitivePrototype,
+  //   source_code_link: 'https://github.com/bl33h/pawsitive',
+  //   demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+  // },
+  // {
+  //   name: 'Basic Calculator',
+  //   description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
+  //   image: calculator,
+  //   source_code_link: 'https://github.com/bl33h/calculator',
+  //   demo_link: 'https://bl33hscalculator.netlify.app/',
+  // },
 ];
 
 const memoji = {
@@ -143,49 +195,49 @@ const skills = [
     title: 'HTML',
     icon: htmlIcon,
     description:
-      'I have a strong command of HTML for organizing web pages and generating meaningful content that can be accessed by all users.',
+    'I have a great understanding of HTML for arranging web pages and creating useful information that is accessible to everyone.',
   },
   {
     id: 'css',
     title: 'CSS',
     icon: cssIcon,
     description:
-    'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
+    'I have expertise in using CSS to design web pages and create visually appealing layouts that improve the overall user experience.'
   },
   {
     id: 'javascript',
     title: 'JavaScript',
     icon: jsIcon,
     description:
-    'I have substantial experience in employing JavaScript to introduce interactivity and functionality into web pages, resulting in dynamic user interfaces.',
+    'I have plenty of experience using JavaScript to add interactivity and functionality to web pages, which results in dynamic user interfaces.',
   },
   {
     id: 'react',
-    title: 'React',
+    title: 'React JS',
     icon: reactIcon,
     description:
-      'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
+    'I am adept with React, designing reusable components, and managing application state with hooks and context.',
   },
   {
-    id: 'java',
-    title: 'Java',
-    icon: javaIcon,
+    id: 'reactNative',
+    title: 'React Native',
+    icon: reactIcon,
     description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
+    'I have introductory experience with React Native and successfully developed an app as part of a class project. While I am still in the early stages of learning, I am enthusiastic about furthering my skills in mobile app development.'
   },
   {
     id: 'aws',
     title: 'Amazon Web Services',
     icon: awsIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+    'Having excelled in college assignments that required extensive use of EC2 and RDS instances, I believe I am skilled at leveraging the power of cloud computing to create scalable and reliable infrastructures using AWS services.',
   },
   {
     id: 'figma',
     title: 'Figma',
     icon: figmaIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+    'While my passion is in development, I am fairly knowledgeable about Figma.' 
   },
   {
     id: 'git',
@@ -199,56 +251,98 @@ const skills = [
     title: 'GitHub',
     icon: githubIcon,
     description:
-      'I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking. Through GitHub, I efficiently create and manage repositories and effectively present my work to potential employers.',
+    'I am skilled in using GitHub for seamless project collaboration, code sharing, and issue tracking.',
   },
   {
     id: 'psql',
     title: 'Postgresql',
     icon: psqlIcon,
     description:
-      'I have a strong command of PostgreSQL, encompassing a wide range of skills such as database normalization, triggers, front-end connectivity, and data analysis using software like Power BI.',
-  },
-  {
-    id: 'vite',
-    title: 'Vite',
-    icon: viteIcon,
-    description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
-  },
-  {
-    id: 'py',
-    title: 'Python',
-    icon: pyIcon,
-    description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+    'I learned the basics of PostgreSQL through specialized college classes and assignments. While I performed well, I still consider myself a beginner.',
   },
   {
     id: 'node',
-    title: 'Node',
+    title: 'Node JS',
     icon: nodeIcon,
     description:
-      'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
+    'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
   },
   {
     id: 'neo',
     title: 'Neo4j',
     icon: neoIcon,
     description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
+    'My knowledge of it is in utilizing its capabilities to create powerful recommendation systems using graph-based data modeling. During my college study, I used Neo4j extensively, largely relying on Neo4j Desktop for assignments and attaining satisfactory results.',
   },
   {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
+    id: 'jekyll',
+    title: 'Jekyll',
+    icon: jekyllIcon,
     description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
+    'Proficient in Jekyll project setup, Markdown content management, theme customization, and website deployment.'
   },
   {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
+    id: 'docker',
+    title: 'Docker',
+    icon: dockerIcon,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+    'Experienced with Docker containerization, including application development, shipping, and operation. Experience using Docker CLI, Dockerfile, Docker Hub, and Docker Engine.'  
+  },
+  {
+    id: 'dockerContainer',
+    title: 'Docker Container',
+    icon: dockerContainerIcon,
+    description:
+    'Proficient in Docker Compose to define and manage multi-container Docker applications. Experience with YAML configuration, service, network, and volume definition, and containerized application orchestration.'
+  },
+  {
+    id: 'neovim',
+    title: 'Neovim',
+    icon: neovimIcon,
+    description:
+    "Capable of using Neovim (nvim) for text editing and development tasks, including Dockerfiles, Docker Compose setups, and other Docker-related files. Using Neovim's capabilities for efficient code editing, navigation, and customization." 
+  },
+  {
+    id: 'expoGo',
+    title: 'Expo Go',
+    icon: expoGoIcon,
+    description:
+    "Proficient in leveraging Expo's features for rapid prototyping, live reloading, and real-time testing on iOS and Android devices. Familiar with deploying and sharing Expo projects for testing and collaboration." 
+  },
+  {
+    id: 'swagger',
+    title: 'Swagger',
+    icon: swaggerIcon,
+    description:
+    "Skilled at building, documenting, and testing RESTful APIs with Swagger. Experience utilizing Swagger specifications to define API endpoints, request/response schemas, authentication techniques, and API versioning."
+  },
+  {
+    id: 'sequelize',
+    title: 'Sequelize ORM',
+    icon: sequelizeLogo,
+    description:
+    "Experienced for database management and querying in Node.js apps, defining models, associations, and migrations for use with relational databases. Capable of performing CRUD operations, and sophisticated queries through it's query interface."  
+  },
+  {
+    id: 'jest',
+    title: 'Jest',
+    icon: jestLogo,
+    description:
+    "Experience writing test suites, test cases, and assertions to validate the application's dependability and functionality. All while mimicking dependencies, testing asynchronous programming, and providing coverage reports."
+  },
+  {
+    id: 'mongoDb',
+    title: 'MongoDB',
+    icon: mongoDbLogo,
+    description:
+    "Experience with schema-less data modeling, document-oriented database design, and CRUD operations. Skilled in performing queries, aggregations, indexing, and data manipulation in MongoDB collections."
+  },
+  {
+    id: 'tailwind',
+    title: 'Tailwind CSS',
+    icon: tailwindLogo,
+    description:
+    "Experience with utility classes, utility-first workflow, and atomic CSS principles. Skilled in creating layouts, components, and responsive designs efficiently using Tailwind's utility classes."
   },
 ];
 
@@ -265,4 +359,5 @@ export {
   skills,
   markerSvg,
   icons,
+  languages,
 };
