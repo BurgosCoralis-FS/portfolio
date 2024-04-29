@@ -42,7 +42,7 @@ import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import spaceTrackerUI from './projects/spaceTrackerUI.png'
+import spaceTrackerUI from './projects/SpaceTrackerUI.png'
 import koreanDiary from './projects/KoreanDiary.png'
 
 // Avatar
