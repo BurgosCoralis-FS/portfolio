@@ -43,7 +43,7 @@ import menu from './menu.svg';
 
 // Projects
 import spaceTrackerUI from './projects/spaceTrackerUI.png'
-import koreanDiary from './projects/koreanDiary.png'
+import koreanDiary from './projects/KoreanDiary.png'
 
 // Avatar
 import avatar from './avatar/avatar.jpeg';
