@@ -36,7 +36,7 @@ import expoGoIcon from './tech/expoGo.png';
 import swaggerIcon from './tech/swagger.png';
 import sequelizeLogo from './tech/sequelize.png';
 import jestLogo from './tech/jest.png';
-import mongoDbLogo from './tech/mongoDb.png';
+import mongoDbLogo from './tech/mongodb.png';
 import tailwindLogo from './tech/tailwind.png';
 import close from './close.svg';
 import menu from './menu.svg';
