@@ -171,13 +171,15 @@ const SectionWrapper = (Component, idName) =>
           <div 
             className="mt-3 flex justify-center items-center"
           >
-            {/* <a 
-              className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center"
-              href={demo_link}
-              target='_blank'
-            >
-              See the Demo
-            </a> */}
+            {demo_link && (
+              <a 
+                className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center"
+                href={demo_link}
+                target='_blank'
+              >
+                See the Demo
+              </a>
+            )}
           </div>
         </Tilt>
       </motion.div>

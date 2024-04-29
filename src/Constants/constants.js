@@ -53,6 +53,7 @@ import {
   mongoDbLogo,
   tailwindLogo,
   spaceTrackerUI,
+  koreanDiary,
   avatar,
   puertoRico,
   unitedStates,
@@ -167,7 +168,13 @@ const projects = [
     description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with cutting-edge technologies like Docker for containerization, Twig for templating, and a robust database abstraction layer, this system empowers users to manage celestial objects with ease and precision.',
     image: spaceTrackerUI,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
-    
+  },
+  {
+    name: "Korean Diary",
+    description: 'Made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
+    image: koreanDiary,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/BurgosCoralis-FS.github.io',
+    demo_link: 'https://burgoscoralis-fs.github.io/'
   },
   // {
   //   name: 'Pawsitive',
