@@ -4,7 +4,7 @@
   FileName: ProjectCards.jsx
   Version: I
   Creation: 02/06/2023
-  Last modification: 04/27/2024
+  Last modification: 05/06/2024
 */
 
 import { motion } from "framer-motion";
@@ -121,7 +121,7 @@ const SectionWrapper = (Component, idName) =>
     )
   };
 
-  const ProjectCard = ({ index, name, description, tags, image, source_code_link, demo_link }) => {
+  const ProjectCard = ({ index, name, description, category, image, source_code_link, demo_link }) => {
     return (
       <motion.div
         variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
@@ -162,6 +162,7 @@ const SectionWrapper = (Component, idName) =>
   
           <div className="mt-3">
             <h3 className="text-white font-bold text-[20px]">{name}</h3>
+            <p className="mt-2 font-bold text-secondary text-[14px] leading-[18px]">{category}</p>
             <p className="mt-2 text-secondary text-[14px] leading-[18px]">{description}</p>
           </div>
           <div

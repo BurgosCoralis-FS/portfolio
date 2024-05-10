@@ -5,7 +5,7 @@
   FileName: index.js
   Version: I
   Creation: 02/06/2023
-  Last modification: 04/27/2024
+  Last modification: 05/10/2024
 */
 
 // Logo
@@ -42,8 +42,9 @@ import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
-import spaceTrackerUI from './projects/SpaceTrackerUI.png'
-import koreanDiary from './projects/KoreanDiary.png'
+import spaceTrackerUI from './projects/SpaceTrackerUI.png';
+import koreanDiary from './projects/KoreanDiary.png';
+import responsiveDesign from './projects/ResponsiveDesign.png';
 
 // Avatar
 import avatar from './avatar/avatar.jpeg';
@@ -84,6 +85,7 @@ export {
   tailwindLogo,
   spaceTrackerUI,
   koreanDiary,
+  responsiveDesign,
   avatar,
   favIcon,
   puertoRico,

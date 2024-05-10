@@ -5,7 +5,7 @@
   FileName: constants.js
   Version: I
   Creation: 02/06/2023
-  Last modification: 04/27/2024
+  Last modification: 05/10/2024
 */
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -54,6 +54,7 @@ import {
   tailwindLogo,
   spaceTrackerUI,
   koreanDiary,
+  responsiveDesign,
   avatar,
   puertoRico,
   unitedStates,
@@ -111,7 +112,7 @@ const introduction = {
     "My name is Cora, and I am a 25-year-old online student at Full Sail University pursuing a bachelor of science in web development.",
     "Aside from regular activities, I enjoy gaming, cosplay, and horror movies.",
 
-    "I am an introverted and timid person, yet I am always eager to learn, collaborate with others, and create new things together. Thank you for taking the time to look through my portfolio. Instagram user @m1sumisu created my avatar!",
+    "I am an introverted and timid person, yet I am always eager to learn, collaborate with others, and create new things together. Thank you for taking the time to look through my portfolio. @m1sumisu in Instagram created my avatar!",
   ],
 };
 
@@ -165,16 +166,26 @@ export const navLinks = [
 const projects = [
   {
     name: "Space Tracker UI",
-    description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with cutting-edge technologies like Docker for containerization, Twig for templating, and a robust database abstraction layer, this system empowers users to manage celestial objects with ease and precision.',
+    category: "Web Design / Development",
+    description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with Docker for containerization, Twig for templating, and a robust database abstraction layer, this system empowers users to manage celestial objects with ease and precision.',
     image: spaceTrackerUI,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
   },
   {
     name: "Korean Diary",
+    category: "Web Development",
     description: 'Made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
     image: koreanDiary,
     source_code_link: 'https://github.com/BurgosCoralis-FS/BurgosCoralis-FS.github.io',
     demo_link: 'https://burgoscoralis-fs.github.io/'
+  },
+  {
+    name: "Responsive Layout Design",
+    category: "Web Development",
+    description: 'A simple responsive landing page made with HTML and CSS. Utilizes JS to change the page from light mode to dark mode and vice versa, and to open and close the hamburger menu.',
+    image: responsiveDesign,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
+    demo_link: 'https://burgoscoralis-fs.github.io/ResponsiveDesign/'
   },
   // {
   //   name: 'Pawsitive',
