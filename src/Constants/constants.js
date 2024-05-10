@@ -174,7 +174,7 @@ const projects = [
   {
     name: "Korean Diary",
     category: "Web Development",
-    description: 'Made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
+    description: 'A blog made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
     image: koreanDiary,
     source_code_link: 'https://github.com/BurgosCoralis-FS/BurgosCoralis-FS.github.io',
     demo_link: 'https://burgoscoralis-fs.github.io/'
