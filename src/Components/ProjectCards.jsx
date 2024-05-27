@@ -4,7 +4,7 @@
   FileName: ProjectCards.jsx
   Version: I
   Creation: 02/06/2023
-  Last modification: 05/06/2024
+  Last modification: 05/012/2024
 */
 
 import { motion } from "framer-motion";
@@ -198,7 +198,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-2">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}

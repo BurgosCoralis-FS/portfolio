@@ -5,7 +5,7 @@
   FileName: constants.js
   Version: I
   Creation: 02/06/2023
-  Last modification: 05/10/2024
+  Last modification: 05/12/2024
 */
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -55,6 +55,7 @@ import {
   spaceTrackerUI,
   koreanDiary,
   responsiveDesign,
+  movieTracker,
   avatar,
   puertoRico,
   unitedStates,
@@ -186,6 +187,14 @@ const projects = [
     image: responsiveDesign,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
     demo_link: 'https://burgoscoralis-fs.github.io/ResponsiveDesign/'
+  },
+  {
+    name: "Movie Tracker",
+    category: "Web Development",
+    description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely. (Web Page to be added)',
+    image: movieTracker,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
+    demo_link: '#'
   },
   // {
   //   name: 'Pawsitive',
