@@ -168,7 +168,7 @@ const projects = [
   {
     name: "Space Tracker UI",
     category: "Web Design / Development",
-    description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with Docker for containerization, Twig for templating, and a robust database abstraction layer, this system empowers users to manage celestial objects with ease and precision.',
+    description: 'The Star Tracker Application is tailored for astronomers and enthusiasts, enabling them to seamlessly add, edit, and remove stars, planets, and galaxies from a comprehensive celestial database. Built with Docker for containerization, Twig for templating, and a robust database abstraction layer, this system encourages users to manage celestial objects with ease and precision.',
     image: spaceTrackerUI,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
   },
@@ -191,10 +191,9 @@ const projects = [
   {
     name: "Movie Tracker",
     category: "Web Development",
-    description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely. (Web Page to be added)',
+    description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely.',
     image: movieTracker,
     source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
-    demo_link: '#'
   },
   // {
   //   name: 'Pawsitive',
