@@ -56,6 +56,7 @@ import {
   koreanDiary,
   responsiveDesign,
   movieTracker,
+  mikumania,
   avatar,
   puertoRico,
   unitedStates,
@@ -182,7 +183,7 @@ const projects = [
   },
   {
     name: "Responsive Layout Design",
-    category: "Web Development",
+    category: "Web Design / Web Development",
     description: 'A simple responsive landing page made with HTML and CSS. Utilizes JS to change the page from light mode to dark mode and vice versa, and to open and close the hamburger menu.',
     image: responsiveDesign,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
@@ -195,6 +196,14 @@ const projects = [
     image: movieTracker,
     source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
   },
+  {
+    name: "Miku Mania",
+    category: "Web Design / Web Development",
+    description: "A simple fan made Hatsune Miku inspired website to showcase the characters of Vocaloid",
+    image: mikumania,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/miku_mania',
+    demo_link: 'https://mikumania.netlify.app/'
+  }
   // {
   //   name: 'Pawsitive',
   //   description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',

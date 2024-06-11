@@ -133,7 +133,7 @@ const SectionWrapper = (Component, idName) =>
             speed: 450
           }}
           className='text-grayscale-50 p-5 rounded-lg sm:w-[280px] w-full'
-          style={{ marginTop: '-120%' }}
+          style={{ marginTop: '-100%' }}
           >
           <div
             className="relative w-full h-[180px]"
@@ -163,7 +163,6 @@ const SectionWrapper = (Component, idName) =>
           <div className="mt-3">
             <h3 className="text-white font-bold text-[20px]">{name}</h3>
             <p className="mt-2 font-bold text-secondary text-[14px] leading-[18px]">{category}</p>
-            <p className="mt-2 text-secondary text-[14px] leading-[18px]">{description}</p>
           </div>
           <div
             className="mt-2 flex flex-wrap gap-1"
@@ -198,7 +197,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-2">
+      <div className="mt-20 flex flex-wrap gap-36">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}

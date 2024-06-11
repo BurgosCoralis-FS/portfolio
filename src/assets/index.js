@@ -46,6 +46,7 @@ import spaceTrackerUI from './projects/SpaceTrackerUI.png';
 import koreanDiary from './projects/KoreanDiary.png';
 import responsiveDesign from './projects/ResponsiveDesign.png';
 import movieTracker from './projects/MovieTracker.png';
+import mikumania from './projects/MikuMania.png'
 
 // Avatar
 import avatar from './avatar/avatar.jpeg';
@@ -93,4 +94,5 @@ export {
   puertoRico,
   unitedStates,
   southKorea,
+  mikumania,
 };
