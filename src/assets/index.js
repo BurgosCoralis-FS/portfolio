@@ -47,6 +47,7 @@ import koreanDiary from './projects/KoreanDiary.png';
 import responsiveDesign from './projects/ResponsiveDesign.png';
 import movieTracker from './projects/MovieTracker.png';
 import mikumania from './projects/MikuMania.png'
+import googleReplica from './projects/google-homepage.png'
 
 // Avatar
 import avatar from './avatar/avatar.jpeg';
@@ -95,4 +96,5 @@ export {
   unitedStates,
   southKorea,
   mikumania,
+  googleReplica
 };

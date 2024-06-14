@@ -57,6 +57,7 @@ import {
   responsiveDesign,
   movieTracker,
   mikumania,
+  googleReplica,
   avatar,
   puertoRico,
   unitedStates,
@@ -203,6 +204,14 @@ const projects = [
     image: mikumania,
     source_code_link: 'https://github.com/BurgosCoralis-FS/miku_mania',
     demo_link: 'https://mikumania.netlify.app/'
+  },
+  {
+    name: 'Dark Mode Google Replica',
+    category: "Web Development",
+    description: "Replica of the Google Dark Mode using HTML and CSS",
+    image: googleReplica,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/Dark-Mode-Google-Homepage',
+    demo_link: 'https://kcgooglereplica.netlify.app/'
   }
   // {
   //   name: 'Pawsitive',
