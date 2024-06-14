@@ -4,7 +4,7 @@
   FileName: Contact.jsx
   Version: I
   Creation: 02/06/2023
-  Last modification: 04/27/2024
+  Last modification: 06/13/2024
 */
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
@@ -28,7 +28,7 @@ const Contact = () => {
               initial={{ x: 200 }}
               whileInView={{ x: 0 }}
               transition={{ duration: 0.6, type: "spring" }}
-              className="w-full sm:w-[90%] md:w-[80%] sm:h-[600px] p-4 flex flex-col sm:flex-row gap-4"
+              className="w-full sm:w-[90%] md:w-[80%] sm:h-[600px] p-4 flex flex-col sm:flex-row gap-4 items-center"
             >
               <div className="flex justify-center"></div>
               <ContactForm />

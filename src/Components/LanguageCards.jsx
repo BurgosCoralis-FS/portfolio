@@ -5,7 +5,7 @@
     FileName: LanguageCards.jsx
     Version: I
     Creation: 02/06/2023
-    Last modification: 04/27/2024
+    Last modification: 06/13/2024
 */
 
 import { m } from "framer-motion";
@@ -35,7 +35,7 @@ const LanguageCards = () => {
         };
     }, []);
     return (
-        <div className="flex">
+        <div className="flex flex-wrap justify-center">
             {languages.map((language, index) => (
                 <m.div
                 initial={{ scale: 0.8 }}
