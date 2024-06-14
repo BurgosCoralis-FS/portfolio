@@ -4,7 +4,7 @@
    FileName: particleOptions.js
    Version: I
    Creation: 02/06/2023
-   Last modification: 02/06/2023
+   Last modification: 06/13/2024
 */
 
 export const heroOptions = {
@@ -96,7 +96,7 @@ export const heroOptions = {
         duration: 0.4,
         size: 40,
         color: {
-          value: '#cbbde5',
+          value: '#8e4db6',
         },
         opacity: 8,
         mix: false,
@@ -117,7 +117,7 @@ export const heroOptions = {
       mode: 'bounce',
     },
     color: {
-      value: '#fff',
+      value: '#8e4db6',
     },
     move: {
       angle: {
@@ -168,28 +168,21 @@ export const heroOptions = {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
-          value: ['\uf13b'],
+          value: ['\uf3c6'],
           weight: '400',
         },
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
-          value: ['\uf38b'],
+          value: ['\uf17c'],
           weight: '400',
         },
         {
           fill: true,
           font: 'Font Awesome 6 Brands',
           style: '',
-          value: ['\uf3b9'],
-          weight: '400',
-        },
-        {
-          fill: true,
-          font: 'Font Awesome 6 Brands',
-          style: '',
-          value: ['\uf41b'],
+          value: ['\uf791'],
           weight: '400',
         },
       ],

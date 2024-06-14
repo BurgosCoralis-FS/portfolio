@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Exo Black";
+    src: url(/Fonts/Exo2/Exo2-Black.ttf);
+}
+
+@font-face {
+    font-family: "Exo Black Italic";
+    src: url(/Fonts/Exo2/Exo2-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Bold";
+    src: url(/Fonts/Exo2/Exo2-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Exo Bold Italic";
+    src: url(/Fonts/Exo2/Exo2-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Extra Bold";
+    src: url(/Fonts/Exo2/Exo2-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Exo Extra Bold Italic";
+    src: url(/Fonts/Exo2/Exo2-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Extra Light";
+    src: url(/Fonts/Exo2/Exo2-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Exo Extra Light Italic";
+    src: url(/Fonts/Exo2/Exo2-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Italic Variable";
+    src: url(/Fonts/Exo2/Exo2-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Exo Italic";
+    src: url(/Fonts/Exo2/Exo2-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Light";
+    src: url(/Fonts/Exo2/Exo2-Light.ttf);
+}
+
+@font-face {
+    font-family: "Exo Light Italic";
+    src: url(/Fonts/Exo2/Exo2-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Medium";
+    src: url(/Fonts/Exo2/Exo2-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Exo Medium Italic";
+    src: url(/Fonts/Exo2/Exo2-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Regular";
+    src: url(/Fonts/Exo2/Exo2-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Exo Semibold";
+    src: url(/Fonts/Exo2/Exo2-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Exo Semibold Italic";
+    src: url(/Fonts/Exo2/Exo2-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Thin";
+    src: url(/Fonts/Exo2/Exo2-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Exo Thin Italic";
+    src: url(/Fonts/Exo2/Exo2-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: "Exo Variable";
+    src: url(/Fonts/Exo2/Exo2-VariableFont_wght.ttf);
+}

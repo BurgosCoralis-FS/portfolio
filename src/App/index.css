@@ -1,10 +1,10 @@
 /*
-  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-  Author: Sara Echeverria
-  FileName: index.css
-  Version: I
-  Creation: 02/06/2023
-  Last modification: 04/27/2024
+   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+   Author: Sara Echeverria
+   FileName: index.css
+   Version: I
+   Creation: 02/06/2023
+   Last modification: 06/13/2024
 */
 
 
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "SuperMario";
-  src: url(/Fonts/Mario/SuperMario256.ttf);
+  src: url(/Fonts/Mario/Brugty.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@
 
 body {
   background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #5C546B;
+  background-color: #373B3E;
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -42,7 +42,7 @@ body {
   content: " ";
   width: 10px;
   height: 10px;
-  background: #292D44;
+  background: transparent;
   position: absolute;
   bottom: -10px;
   right: 0;
@@ -52,13 +52,13 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #d9c5ee);
+  filter: drop-shadow(0 0 5rem #8e4db6);
 }
 
 #repulse-div > h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #292D44);
-  filter: drop-shadow(0 0 5rem #292D44);
+  -webkit-filter: drop-shadow(0 0 5rem #d9c5ee);
+  filter: drop-shadow(0 0 5rem #d9c5ee);
 }
 
 #journey-scroll::-webkit-scrollbar {
@@ -73,8 +73,7 @@ body {
 .arrowpath,
 polyline {
   fill: none;
-  stroke: #515152;
-  vector-effect: non-scaling-stroke;
+  stroke: #8e4db6;
   stroke-width: 2;
 }
 
@@ -93,11 +92,11 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #292D44;
+  background: transparent;
   border-collapse: separate;
   background-size: cover;
   background-position: center;
-  outline: 1px solid transparent;
+  outline: 1px #8e4db6;
 }
 
 @keyframes morph {
@@ -126,7 +125,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #cbbde5;
+  color: #5c3b76;
 }
 
 @keyframes rubberband {
@@ -157,15 +156,15 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #cbbde5);
-    filter: drop-shadow(0 0 1.5rem #cbbde5);
+    -webkit-filter: drop-shadow(0 0 1.5rem #d9c5ee);
+    filter: drop-shadow(0 0 1.5rem #d9c5ee);
   }
 }
 
 .loader {
   width: 100px;
   height: 100px;
-  border: 5px solid #ecfdf4;
+  border: 5px solid #8e4db6;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -181,7 +180,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #cbbde5 transparent;
+  border-color: #8e4db6 transparent;
 }
 
 @keyframes rotation {

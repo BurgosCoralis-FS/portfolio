@@ -4,7 +4,7 @@
   FileName: SectionTitle.jsx
   Version: I
   Creation: 02/06/2023
-  Last modification: 04/27/2024
+  Last modification: 06/13/2024
 */
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
@@ -32,7 +32,7 @@ const SectionTitle = (props) => {
         </span>
         <h2
           className="tracking-wider text-7xl sm:text-8xl md:text-9xl"
-          style={{ fontFamily: "Morganite Black"}}
+          style={{ fontFamily: "Exo Black", fontSize: '3rem'}}
         >
           {title.split("").map((char, index) => {
             if(char === " ") {

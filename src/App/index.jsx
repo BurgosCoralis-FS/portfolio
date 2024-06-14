@@ -1,10 +1,10 @@
 /*
-  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-  Author: Sara Echeverria
-  FileName: index.jsx
-  Version: I
-  Creation: 02/06/2023
-  Last modification: 04/27/2024
+   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+   Author: Sara Echeverria
+   FileName: index.jsx
+   Version: I
+   Creation: 02/06/2023
+   Last modification: 02/06/2023
 */
 
 
@@ -16,7 +16,7 @@ import { media } from "../Constants/constants";
 import App from "./App";
 import "./index.css";
 import "font-awesome/css/font-awesome.min.css";
-import "../../public/Fonts/Morganite/morganiteFont.css";
+import "../../public/Fonts/Exo2/exo2Fonts.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -1,10 +1,10 @@
 /*
-  Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-  Author: Sara Echeverria
-  FileName: BgQuote.jsx
-  Version: I
-  Creation: 02/06/2023
-  Last modification: 04/27/2024
+   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
+   Author: Sara Echeverria
+   FileName: BgQuote.jsx
+   Version: I
+   Creation: 02/06/2023
+   Last modification: 02/06/2023
 */
 
 import { m, LazyMotion, domAnimation } from "framer-motion";
@@ -23,7 +23,7 @@ const BgQuote = (props) => {
       >
         <p
           style={{ fontFamily: "La Belle Aurore, cursive" }}
-          className="text-grayscale-600 text-lg noselect"
+          className="text-grayscale-400 text-lg noselect"
         >
           {text}
         </p>
