@@ -104,6 +104,7 @@ export const slideIn = (direction, type, delay, duration) => {
 const ProjectCard = ({
   index,
   name,
+  category,
   description,
   image,
   source_code_link,
@@ -141,6 +142,7 @@ const ProjectCard = ({
 
         <div className="mt-3">
           <h3 className="text-white font-bold text-2xl">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px] leading-snug">{category}</p>
           <p className="mt-2 text-secondary text-[14px] leading-snug">
             {description}
           </p>
