@@ -188,7 +188,7 @@ const projects = [
     description: 'A simple responsive landing page made with HTML and CSS. Utilizes JS to change the page from light mode to dark mode and vice versa, and to open and close the hamburger menu.',
     image: responsiveDesign,
     source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
-    demo_link: 'https://burgoscoralis-fs.github.io/ResponsiveDesign/'
+    demo_link: 'https://kcresponsivedesign.netlify.app/'
   },
   {
     name: "Movie Tracker",
