@@ -124,7 +124,7 @@ const languages = [
     id: 'spanish',
     title: 'Spanish',
     icon: puertoRico,
-    level: 'Native Proficiency',
+    level: 'Native',
     details: 'I was born and raised in Puerto Rico, where the primary language is Spanish.'
   },
   {
@@ -132,14 +132,14 @@ const languages = [
     title: 'English',
     icon: unitedStates,
     level: 'Fluent',
-    details: 'Since kindergarten till my senior year of high school, I have been studying English. Aside from that, I used television, video games, and movies to improve and hone my English.'
+    details: 'I have been studying English since kindergarten till my senior year of high school. Aside from that, I used television, books, video games, and movies to further improve.'
   },
   {
     id: 'korean',
     title: 'Korean',
     icon: southKorea,
     level: 'Intermediate',
-    details: 'For a year, I have been taking Korean classes with an online tutor. Although my speaking may use some improvement, my writing and listening skills are at an intermediate level.'
+    details: 'For a year, I have been taking Korean classes with an online tutor. Although my pronunciation and listening may use some improvement, my writing and reading skills are at an intermediate level.'
   }
 ];
 
@@ -213,20 +213,6 @@ const projects = [
     source_code_link: 'https://github.com/BurgosCoralis-FS/Dark-Mode-Google-Homepage',
     demo_link: 'https://kcgooglereplica.netlify.app/'
   }
-  // {
-  //   name: 'Pawsitive',
-  //   description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
-  //   image: pawsitivePrototype,
-  //   source_code_link: 'https://github.com/bl33h/pawsitive',
-  //   demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
-  // },
-  // {
-  //   name: 'Basic Calculator',
-  //   description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-  //   image: calculator,
-  //   source_code_link: 'https://github.com/bl33h/calculator',
-  //   demo_link: 'https://bl33hscalculator.netlify.app/',
-  // },
 ];
 
 const memoji = {
