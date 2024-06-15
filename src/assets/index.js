@@ -38,6 +38,7 @@ import sequelizeLogo from './tech/sequelize.png';
 import jestLogo from './tech/jest.png';
 import mongoDbLogo from './tech/mongodb.png';
 import tailwindLogo from './tech/tailwind.png';
+import twigLogo from './tech/twig.png'
 import close from './close.svg';
 import menu from './menu.svg';
 
@@ -86,6 +87,7 @@ export {
   jestLogo,
   mongoDbLogo,
   tailwindLogo,
+  twigLogo,
   spaceTrackerUI,
   koreanDiary,
   responsiveDesign,

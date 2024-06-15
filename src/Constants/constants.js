@@ -52,6 +52,7 @@ import {
   jestLogo,
   mongoDbLogo,
   tailwindLogo,
+  twigLogo,
   spaceTrackerUI,
   koreanDiary,
   responsiveDesign,
@@ -94,6 +95,7 @@ const media = {
   jestLogo,
   mongoDbLogo,
   tailwindLogo,
+  twigLogo
 };
 
 const icons = {
@@ -375,6 +377,12 @@ const skills = [
     description:
     "Experience with utility classes, utility-first workflow, and atomic CSS principles. Skilled in creating layouts, components, and responsive designs efficiently using Tailwind's utility classes."
   },
+  {
+    id: 'twig',
+    title: 'Twig',
+    icon: twigLogo,
+    description:'Introduced to Twig for the first time while working on the Space Tracker. Demonstrated proficiency in separating HTML structure from backend logic, creating efficient and maintainable web pages.'
+  }
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">
