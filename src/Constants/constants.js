@@ -264,7 +264,7 @@ const skills = [
     title: 'Amazon Web Services',
     icon: awsIcon,
     description:
-    'Having excelled in college assignments that required extensive use of EC2 and RDS instances, I believe I am skilled at leveraging the power of cloud computing to create scalable and reliable infrastructures using AWS services.',
+    'Excelled in college assignments that required the use of EC2, Cloud9, RDS, IAM, S3 Buckets, API Gateway, and DynamoDB',
   },
   {
     id: 'figma',
