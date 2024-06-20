@@ -199,6 +199,7 @@ const projects = [
     description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely.',
     image: movieTracker,
     source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
+    demo_link: 'https://youtu.be/GLqkur5xKOg'
   },
   {
     name: "Miku Mania",
