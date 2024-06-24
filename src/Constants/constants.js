@@ -59,6 +59,7 @@ import {
   movieTracker,
   mikumania,
   googleReplica,
+  spotify,
   avatar,
   puertoRico,
   unitedStates,
@@ -216,6 +217,14 @@ const projects = [
     image: googleReplica,
     source_code_link: 'https://github.com/BurgosCoralis-FS/Dark-Mode-Google-Homepage',
     demo_link: 'https://kcgooglereplica.netlify.app/'
+  },
+  {
+    name: 'Spotify',
+    category: 'Web Development',
+    description: "An attempt at recreating a Spotify replica using it's API combined with Genius Lyric's API for lyrics. Created with React and ExpressJS",
+    image: spotify,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/pp3-spotify',
+    demo_link: 'https://youtu.be/Mw4EGTCMexY'
   }
 ];
 
