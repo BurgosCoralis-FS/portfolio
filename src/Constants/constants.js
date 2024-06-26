@@ -5,7 +5,7 @@
   FileName: constants.js
   Version: I
   Creation: 02/06/2023
-  Last modification: 05/12/2024
+  Last modification: 06/26/2024
 */
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -171,39 +171,8 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Space Tracker",
-    category: "Web Design / Development",
-    description: 'In the Star Tracker you can add, edit, and remove stars, planets, galaxies, and images. Built with Docker for containerization, Twig for templating, and a database abstraction layer.',
-    image: spaceTrackerUI,
-    source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
-    demo_link: 'https://youtu.be/InZzFaYk2yo'
-  },
-  {
-    name: "Korean Diary",
-    category: "Web Development",
-    description: 'A blog made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
-    image: koreanDiary,
-    source_code_link: 'https://github.com/BurgosCoralis-FS/BurgosCoralis-FS.github.io',
-    demo_link: 'https://burgoscoralis-fs.github.io/'
-  },
-  {
-    name: "Responsive Layout Design",
-    category: "Web Design / Development",
-    description: 'A simple responsive landing page made with HTML and CSS. Utilizes JS to change the page from light mode to dark mode and vice versa, and to open and close the hamburger menu.',
-    image: responsiveDesign,
-    source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
-    demo_link: 'https://kcresponsivedesign.netlify.app/'
-  },
-  {
-    name: "Movie Tracker",
-    category: "Web Development",
-    description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely.',
-    image: movieTracker,
-    source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
-    demo_link: 'https://youtu.be/GLqkur5xKOg'
-  },
-  {
     name: "Miku Mania",
+    date: '06/13/24',
     category: "Web Design / Development",
     description: "A simple fan made Hatsune Miku inspired website to showcase the characters of Vocaloid",
     image: mikumania,
@@ -211,21 +180,59 @@ const projects = [
     demo_link: 'https://mikumania.netlify.app/'
   },
   {
+    name: "Responsive Layout Design",
+    date: '06/20/24',
+    category: "Web Design / Development",
+    description: 'A simple responsive landing page made with HTML and CSS. Utilizes JS to change the page from light mode to dark mode and vice versa, and to open and close the hamburger menu.',
+    image: responsiveDesign,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/ResponsiveDesign',
+    demo_link: 'https://kcresponsivedesign.netlify.app/'
+  },
+  {
+    name: 'Spotify',
+    date: '05/02/24',
+    category: 'Web Development',
+    description: "An attempt at recreating a Spotify replica using it's API combined with Genius Lyric's API for lyrics. Created with React and ExpressJS",
+    image: spotify,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/pp3-spotify',
+    demo_link: 'https://youtu.be/Mw4EGTCMexY'
+  },
+  {
+    name: "Korean Diary",
+    date: '03/31/24',
+    category: "Web Development",
+    description: 'A blog made with Jekyll. Used to provide my online Korean teacher a site where she can easily access the homework.',
+    image: koreanDiary,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/BurgosCoralis-FS.github.io',
+    demo_link: 'https://burgoscoralis-fs.github.io/'
+  },
+  {
+    name: "Movie Tracker",
+    date: '03/18/24',
+    category: "Web Development",
+    description: 'A full-stack web application built with React.js, Node.js, Express.js, and MongoDB, allowing users to manage their movie collections and authenticate securely.',
+    image: movieTracker,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/authentication',
+    demo_link: 'https://youtu.be/GLqkur5xKOg'
+  },
+  {
+    name: "Space Tracker",
+    date: '02/04/24',
+    category: "Web Design / Development",
+    description: 'In the Star Tracker you can add, edit, and remove stars, planets, galaxies, and images. Built with Docker for containerization, Twig for templating, and a database abstraction layer.',
+    image: spaceTrackerUI,
+    source_code_link: 'https://github.com/BurgosCoralis-FS/ASL/tree/spaceTrackerUi',
+    demo_link: 'https://youtu.be/InZzFaYk2yo'
+  },
+  {
     name: 'Dark Mode Google Replica',
+    date: '08/17/23',
     category: "Web Development",
     description: "Replica of the Google Dark Mode using HTML and CSS",
     image: googleReplica,
     source_code_link: 'https://github.com/BurgosCoralis-FS/Dark-Mode-Google-Homepage',
     demo_link: 'https://kcgooglereplica.netlify.app/'
   },
-  {
-    name: 'Spotify',
-    category: 'Web Development',
-    description: "An attempt at recreating a Spotify replica using it's API combined with Genius Lyric's API for lyrics. Created with React and ExpressJS",
-    image: spotify,
-    source_code_link: 'https://github.com/BurgosCoralis-FS/pp3-spotify',
-    demo_link: 'https://youtu.be/Mw4EGTCMexY'
-  }
 ];
 
 const memoji = {
